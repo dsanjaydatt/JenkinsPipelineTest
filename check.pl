@@ -7,7 +7,7 @@ This is the sample text
 that is used to write to file
 END
 
-my $filename = 'E:\PerlTesting\hello.txt';
+my $filename = 'hello.txt';
 
 open(FH, '>', $filename) or die $!;
 
