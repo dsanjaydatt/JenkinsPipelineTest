@@ -16,7 +16,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                echo 'Deploying'
+               sh "/usr/bin/perl -w check.pl "
             }
         }
         
