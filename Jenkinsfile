@@ -16,7 +16,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-               sh "/usr/bin/perl -w main/check.pl"
+               sh "/usr/bin/perl -w JenkinsPipelineTest/check.pl"
             }
         }
         
